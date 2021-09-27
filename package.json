@@ -1,0 +1,38 @@
+{
+  "name": "skeleton-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2",
+    "@fortawesome/free-brands-svg-icons": "^5.15",
+    "@fortawesome/free-regular-svg-icons": "^5.15",
+    "@fortawesome/free-solid-svg-icons": "^5.15",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "@popperjs/core": "^2.9",
+    "axios": "^0.21",
+    "bootstrap": "^5.1",
+    "core-js": "^3.6",
+
+    "vue": "^3.0",
+    "vue-axios": "^3.3",
+    "vue-router": "^4.0",
+    "vuex": "^4.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.4",
+    "@types/node": "^16.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "rollup-plugin-ignore": "^1.0.10",
+    "rollup-plugin-filesize": "^9.1.1",
+    "sass": "^1.26.5",
+    "typescript": "^4.4.3",
+    "vite": "^2.5.10",
+    "vue-tsc": "^0.3.0"
+  }
+}
